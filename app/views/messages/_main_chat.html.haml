@@ -1,0 +1,28 @@
+.chat
+  .header
+    .left-header
+      .left-header__title
+        おはよう
+      -# %ul.left-header__members
+      -#   メンバー
+      -# %li.member
+      -#   メンバー名
+          
+    .right-header
+      .right-header__button
+        Edit
+
+  .create-one
+    .create-one__body-main
+      .create-one__body-main--top
+        %p 誰でも簡単に手軽にできるブログアプリ
+      .create-one__body-main--middle
+        %p ブログアプリは個人で
+        %p 日々の日常や出来事を記して
+        %p 気軽に楽しんでやることができます
+      .create-one__body-main--btn
+        = link_to "#", class: "icon" do
+          = image_tag 'app-store.svg',class: "appBtn"
+        = link_to "#", class: "icon" do
+          = image_tag 'google-play.svg',class: "googleBtn"
+        
