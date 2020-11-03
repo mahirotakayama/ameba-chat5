@@ -13,14 +13,16 @@
         margin-top: 35px;
         display: inline-block;
       }
-      &__members {
-        color: #999;
-        font-size: 12px;
-        margin-top: 15px;
-        display: inline-block;
-        .member {
-          padding-right: 5px;
-        }
+    }
+    .center-header {
+      float: right;
+      margin-right: 20px;
+      height: 40px;
+      font-size: 20px;
+      &__button {
+        color: #333;
+        font-size: 20px;
+        margin: 35px 20px;
       }
     }
     .right-header {
@@ -28,7 +30,7 @@
       float: right;
       height: 40px;
       line-height: 40px;
-      margin-top: 28px;
+      margin: 30px 20px;
       padding: 0 20px;
       .edit_button{
         color: $light_blue;
